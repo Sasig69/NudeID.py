@@ -1,0 +1,18 @@
+Flask>=2.0
+opencv-python>=4.5.5
+python-dotenv>=0.21.0
+
+# Optional / recommended for better detection and GPU support:
+# NudeNet: image-level NSFW detector (downloads models on first run)
+nudenet>=0.6.0
+# Ultralytics YOLOv8 (optional person detector)
+ultralytics>=8.0.0
+# Torch is often required by ultralytics — install the right build for your CUDA/PyTorch setup
+# See https://pytorch.org for platform-specific instructions; you can add the appropriate
+# torch wheel before or after installing these requirements.
+torch>=1.12.0
+flask>=2.0
+nudenet>=0.6.0
+opencv-python>=4.5
+numpy>=1.21
+tqdm>=4.64
